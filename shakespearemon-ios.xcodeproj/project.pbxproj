@@ -30,19 +30,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EA0E032D2DC14903004F31AE /* shakespearemon-ios */ = {
+		EA0E032D2DC14903004F31AE /* Shakespearemon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "shakespearemon-ios";
+			path = Shakespearemon;
 			sourceTree = "<group>";
 		};
-		EA0E033E2DC14906004F31AE /* shakespearemon-iosTests */ = {
+		EA0E033E2DC14906004F31AE /* ShakespearemonTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "shakespearemon-iosTests";
+			path = ShakespearemonTests;
 			sourceTree = "<group>";
 		};
-		EA0E03482DC14906004F31AE /* shakespearemon-iosUITests */ = {
+		EA0E03482DC14906004F31AE /* ShakespearemonUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "shakespearemon-iosUITests";
+			path = ShakespearemonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		EA0E03222DC14903004F31AE = {
 			isa = PBXGroup;
 			children = (
-				EA0E032D2DC14903004F31AE /* shakespearemon-ios */,
-				EA0E033E2DC14906004F31AE /* shakespearemon-iosTests */,
-				EA0E03482DC14906004F31AE /* shakespearemon-iosUITests */,
+				EA0E032D2DC14903004F31AE /* Shakespearemon */,
+				EA0E033E2DC14906004F31AE /* ShakespearemonTests */,
+				EA0E03482DC14906004F31AE /* ShakespearemonUITests */,
 				EA0E032C2DC14903004F31AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EA0E032D2DC14903004F31AE /* shakespearemon-ios */,
+				EA0E032D2DC14903004F31AE /* Shakespearemon */,
 			);
 			name = "shakespearemon-ios";
 			packageProductDependencies = (
@@ -131,7 +131,7 @@
 				EA0E033D2DC14906004F31AE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EA0E033E2DC14906004F31AE /* shakespearemon-iosTests */,
+				EA0E033E2DC14906004F31AE /* ShakespearemonTests */,
 			);
 			name = "shakespearemon-iosTests";
 			packageProductDependencies = (
@@ -154,7 +154,7 @@
 				EA0E03472DC14906004F31AE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EA0E03482DC14906004F31AE /* shakespearemon-iosUITests */,
+				EA0E03482DC14906004F31AE /* ShakespearemonUITests */,
 			);
 			name = "shakespearemon-iosUITests";
 			packageProductDependencies = (
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"shakespearemon-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shakespearemon/Preview Content\"";
 				DEVELOPMENT_TEAM = 82HH5XAN82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"shakespearemon-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shakespearemon/Preview Content\"";
 				DEVELOPMENT_TEAM = 82HH5XAN82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

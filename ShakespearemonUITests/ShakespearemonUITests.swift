@@ -1,6 +1,6 @@
 //
-//  shakespearemon_iosUITests.swift
-//  shakespearemon-iosUITests
+//  ShakespearemonUITests.swift
+//  ShakespearemonUITests
 //
 //  Created by Fabrizio Scarano on 29/04/25.
 //

@@ -1,6 +1,6 @@
 //
-//  shakespearemon_iosTests.swift
-//  shakespearemon-iosTests
+//  ShakespearemonTests.swift
+//  ShakespearemonTests
 //
 //  Created by Fabrizio Scarano on 29/04/25.
 //

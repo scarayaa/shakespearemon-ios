@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA0E03692DC14CFC004F31AE /* shakespearemon-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = EA0E03682DC14CFC004F31AE /* shakespearemon-sdk */; };
+		EA3CBCA82DCA5BC3004FE791 /* shakespearemon-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = EA3CBCA72DCA5BC3004FE791 /* shakespearemon-sdk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0E03692DC14CFC004F31AE /* shakespearemon-sdk in Frameworks */,
+				EA3CBCA82DCA5BC3004FE791 /* shakespearemon-sdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			);
 			name = "shakespearemon-ios";
 			packageProductDependencies = (
-				EA0E03682DC14CFC004F31AE /* shakespearemon-sdk */,
+				EA3CBCA72DCA5BC3004FE791 /* shakespearemon-sdk */,
 			);
 			productName = "shakespearemon-ios";
 			productReference = EA0E032B2DC14903004F31AE /* shakespearemon-ios.app */;
@@ -202,7 +202,7 @@
 			mainGroup = EA0E03222DC14903004F31AE;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				EA0E03672DC14CFC004F31AE /* XCLocalSwiftPackageReference "../shakespearemon-sdk" */,
+				EA3CBCA62DCA5BC2004FE791 /* XCRemoteSwiftPackageReference "shakespearemon-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EA0E032C2DC14903004F31AE /* Products */;
@@ -570,16 +570,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		EA0E03672DC14CFC004F31AE /* XCLocalSwiftPackageReference "../shakespearemon-sdk" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../shakespearemon-sdk";
+/* Begin XCRemoteSwiftPackageReference section */
+		EA3CBCA62DCA5BC2004FE791 /* XCRemoteSwiftPackageReference "shakespearemon-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scarayaa/shakespearemon-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EA0E03682DC14CFC004F31AE /* shakespearemon-sdk */ = {
+		EA3CBCA72DCA5BC3004FE791 /* shakespearemon-sdk */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = EA3CBCA62DCA5BC2004FE791 /* XCRemoteSwiftPackageReference "shakespearemon-sdk" */;
 			productName = "shakespearemon-sdk";
 		};
 /* End XCSwiftPackageProductDependency section */

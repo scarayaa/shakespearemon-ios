@@ -8,12 +8,14 @@
 import SwiftUI
 import ShakespearemonSDK
 
-@MainActor
 @Observable
 final class SearchViewModel {
     
+    /// The shakespearemon API interface.
     private let shakespearemonService: ShakespearemonService
     
+    /// A simple debouncer to avoid triggering SDK calls when the user
+    /// types on the search bar.
     private let fetchDebouncer = Debouncer(duration: .seconds(1.0))
     
     var searchText = "" {

@@ -11,6 +11,9 @@ import ShakespearemonSDK
 @main
 struct ShakespearemonApp: App {
     
+    // Declared and instanced here for ease of use.
+    // A dependency container could be use to hold it, and can be tested
+    // using the exposed interface `ShakespearemonService`.
     let shakespearemonService = ShakespearemonSDK.getNewServiceInstance()
     
     var body: some Scene {

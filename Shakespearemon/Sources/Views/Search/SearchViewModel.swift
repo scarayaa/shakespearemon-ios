@@ -20,6 +20,10 @@ final class SearchViewModel {
     
     var searchText = "" {
         didSet {
+            guard searchText != oldValue else {
+                return
+            }
+            
             handleSearchTextChange(searchText)
         }
     }
